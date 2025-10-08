@@ -6,6 +6,13 @@ The Trinkets have a much slower CPU than the ItsyBitsy M4, and although that's n
 ***update - please take the time to watch the video kindly created by Matt Spencer from Vancouver, British Columbia!***
 https://www.youtube.com/watch?v=9zhCrwn6ba0
 
+Prerequisites
+
+1. While in bootloader mode, copy the latest CircuitPython UF2 for the ItsyBitsy M4 onto the drive:
+👉 https://circuitpython.org/board/itsybitsy_m4_express/
+2.The board will automatically reboot, and a new drive like CIRCUITPY will appear.
+3. You can now edit code.py directly on that drive, or copy your own file over and rename to code.py.
+   
 Install
 
 1. Copy the "adafruit_hid" folder and the "code.py" file to the CIRCUITPY folder on your AdaFruit ItsyBitsy
